@@ -1,0 +1,5 @@
+.centretext{
+    display: flex
+    ;
+        justify-content: center;
+}

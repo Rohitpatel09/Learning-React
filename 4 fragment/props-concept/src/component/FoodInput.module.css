@@ -1,0 +1,33 @@
+
+.input{
+border: 2px solid black;
+border-radius: 10px;
+width: 100%;
+padding: 5px;
+margin: 10px 0px;
+
+}
+.contain{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+   width: 60px;
+   margin-left: 10px;
+   height: 40px;
+   margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
