@@ -8,10 +8,20 @@ import InputBox from "./component/InputBox";
 function App() {
 
 let itemlist=["Roti","Dal","Chawal","Ghee","Milk","Coffee"];
+
+let texttoshow="Food item entered by user";
+const HandleChange=(event)=>{
+  console.log(event.target.value);
+texttoshow=event.target.value;
+}
+// problem : when we inside the component your component is state less.state means storing the information while component is painting 
+
+
   return<> 
 <Container >
 <Heading></Heading>
-<InputBox></InputBox>
+<InputBox HandleChange={HandleChange}></InputBox>
+<p>{texttoshow}</p>
 <ErrorMessage itemlist={itemlist}></ErrorMessage>
 <FoodItems itemlist={itemlist}></FoodItems>
 </Container>
