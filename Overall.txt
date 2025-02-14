@@ -1,0 +1,25 @@
+1) Bharat clock version 2 : me useeffect and usestate use karke dekha h
+
+2) Social Media: me dekha ki api se data kaise lagte h or kaise usko direct use karte h bina fetch button ke with the help of useeffect hook,
+
+3) useEffect Hook: mujhko lagta h useeffect hook loops ke jaise kaam karta h jo ki directly run ho jta h,kisi bhi cheez (matlab button ke click karne pe event call nhi karta ) directly run ho jta h
+
+
+4) UseCallback and UseMemo Hooks
+-->These hooks are used to increasing the performance 
+
+-->seedhi baat no bakbas ; use hook bohut kaam use hote h 
+
+5)React-router
+-->A specific url should load a specific component
+
+4)routes in react means mapping the url or link between a component.
+when people visit a specific url react routes will render a specific components corresponding to the url
+
+
+7)useNavigate is a hook which is used to re-direct on another tab or compo
+
+.......................................................................................
+                    Thapa react routing notes
+1) what is react router
+->React router is a popular javascript framework for handling routing in react applications

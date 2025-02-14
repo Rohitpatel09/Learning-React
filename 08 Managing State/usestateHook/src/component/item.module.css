@@ -1,0 +1,10 @@
+.itm{
+    font-weight: 500;
+}
+.btn{
+    float: right;
+}
+.btn:hover{
+  box-shadow: 2px 2px saddlebrown ;
+  opacity: 0.9;
+}
